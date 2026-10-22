@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - docupresto</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 800px; margin: 0 auto; padding: 32px 20px; background-color: #f8fafc; }
+        .container { background: #ffffff; padding: 40px; border-radius: 16px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
+        h1 { color: #107C41; font-size: 28px; margin-bottom: 8px; }
+        h2 { color: #0f172a; font-size: 18px; margin-top: 28px; border-bottom: 2px solid #f1f5f9; padding-bottom: 6px; }
+        p, li { font-size: 14px; color: #475569; }
+        .badge { display: inline-block; background: #e8f5e9; color: #107C41; padding: 4px 12px; border-radius: 999px; font-weight: bold; font-size: 12px; margin-bottom: 16px; }
+        .footer { margin-top: 36px; text-align: center; font-size: 12px; color: #94a3b8; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <span class="badge">Privacidad Blindada · Arquitectura Offline-First</span>
+    <h1>Política de Privacidad de docupresto</h1>
+    <p><em>Última actualización: 14 de octubre de 2026</em></p>
+
+    <p>En <strong>docupresto</strong>, valoramos y respetamos la privacidad de los técnicos de campo, instaladores, autónomos y de sus respectivos clientes finales. Esta Política de Privacidad explica de forma transparente cómo se gestionan los datos en nuestra aplicación móvil (iOS y Android).</p>
+
+    <h2>1. Principio Fundamental: Almacenamiento Local (Offline-First)</h2>
+    <p>docupresto ha sido diseñada bajo una arquitectura que prescinde de servidores centralizados de almacenamiento de datos de clientes:</p>
+    <ul>
+        <li><strong>Sus datos le pertenecen a usted:</strong> Toda la información introducida (nombres de clientes, números de teléfono, partidas de obra, importes, impuestos y firmas digitales manuscritas) se almacena exclusivamente en la memoria física de su propio dispositivo móvil mediante bases de datos locales protegidas.</li>
+        <li><strong>Sin servidores intermediarios:</strong> docupresto no transmite sus presupuestos, facturas ni firmas a bases de datos de nuestra propiedad ni a servidores de terceros para minería de datos.</li>
+    </ul>
+
+    <h2>2. Datos de Contactos y Agenda Telefónica</h2>
+    <p>Nuestra aplicación <strong>NO solicita ni hace uso de permisos invasivos</strong> como <code>READ_CONTACTS</code> (leer sus contactos) ni <code>WRITE_CONTACTS</code> (modificar su agenda en segundo plano):</p>
+    <ul>
+        <li>Cuando usted utiliza la opción de "Guardar en Contactos", docupresto delega la acción directamente en la aplicación oficial de contactos de su sistema operativo (Android o iOS) mediante Intents estándar del sistema.</li>
+        <li>Nuestra app nunca lee ni tiene acceso a su libreta de direcciones privadas.</li>
+    </ul>
+
+    <h2>3. Copia de Seguridad Opcional en la Nube (Google Drive e iCloud)</h2>
+    <p>Si usted decide voluntariamente activar la copia de seguridad para proteger sus datos ante caídas o pérdidas del terminal:</p>
+    <ul>
+        <li><strong>En Android:</strong> La copia se realiza utilizando la API de Google Drive en el directorio privado exclusivo para aplicaciones (<code>drive.appdata</code>). La app solo tiene acceso a su propio archivo de copia y nunca a sus archivos personales de Drive.</li>
+        <li><strong>En iOS:</strong> La sincronización se realiza mediante el contenedor seguro de iCloud Documents vinculado a su Apple ID personal.</li>
+    </ul>
+
+    <h2>4. Gestión de Compras y Suscripciones (RevenueCat)</h2>
+    <p>Para gestionar las suscripciones de docupresto PRO y el plan de por vida (Lifetime), utilizamos el SDK oficial de <strong>RevenueCat</strong>, el cual procesa identificadores de transacción anónimos en conjunto con Apple App Store (StoreKit) y Google Play Billing. docupresto nunca almacena números de tarjetas de crédito ni datos bancarios.</p>
+
+    <h2>5. Derechos del Usuario</h2>
+    <p>Dado que los datos residen localmente en su teléfono, usted tiene el control total sobre ellos: puede editarlos, exportarlos a PDF o eliminarlos desinstalando la aplicación o borrando el almacenamiento local desde los ajustes de su sistema operativo.</p>
+
+    <h2>6. Contacto de Soporte y Privacidad</h2>
+    <p>Para cualquier consulta o solicitud de soporte relacionada con la privacidad, puede comunicarse con nosotros en: <a href="mailto:soporte@docupresto.app">soporte@docupresto.app</a>.</p>
+</div>
+<div class="footer">
+    &copy; 2026 docupresto App. Todos los derechos reservados.
+</div>
+</body>
+</html>
